@@ -1,0 +1,26 @@
+name: sketchlite
+description: Лёгкий мобильный холст для рисования (Flutter, Android/iOS) с неограниченными слоями и кистями.
+publish_to: "none"
+version: 3.5.1+12
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  path_provider: ^2.1.4
+  uuid: ^4.5.1
+  image_picker: ^1.1.2
+  share_plus: ^9.0.0
+  image: ^4.2.0 # кодирование JPEG при экспорте
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
